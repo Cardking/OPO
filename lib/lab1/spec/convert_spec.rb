@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require './spec/spec_helper'
-require './lib/lab1/convert'
+require './spec/spec_helper.rb'
+require './lib/lab1/convert.rb'
 
 RSpec.describe Convertator do
   describe '.convertation' do
