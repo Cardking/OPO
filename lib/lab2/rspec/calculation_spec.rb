@@ -1,14 +1,13 @@
 # frozen_string_literal: true
 
 require './spec/spec_helper'
-require './lib/calculation'
+require './lib/lab2/calculation'
 require 'csv'
 
 RSpec.describe Calculation do
   describe 'Tests' do
     let(:file) do
-      CSV.read('./lib/exm.csv', headers: true,
-                                converters: :numeric)
+      CSV.read('./lib/lab2/exm.csv', headers: true, converters: :numeric)
     end
     let(:array_of_string) { file['Прирост населения'] }
     let(:ob_calc) { Calculation.new(array_of_string) }
