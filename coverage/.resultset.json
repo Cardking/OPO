@@ -1,6 +1,36 @@
 {
   "RSpec": {
     "coverage": {
+      "/home/egor/oop/lab12/OPO/lib/lab2/calculation.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          1,
+          1,
+          4,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          14,
+          null,
+          null,
+          1,
+          1,
+          8,
+          1,
+          null,
+          null
+        ]
+      },
       "/home/egor/oop/lab12/OPO/lib/lab1/convert.rb": {
         "lines": [
           null,
@@ -57,6 +87,6 @@
         ]
       }
     },
-    "timestamp": 1610943495
+    "timestamp": 1610947246
   }
 }
