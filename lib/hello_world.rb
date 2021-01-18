@@ -3,3 +3,5 @@ class HelloWorld
     'world'
   end
 end
+
+puts HelloWorld.new.hello
