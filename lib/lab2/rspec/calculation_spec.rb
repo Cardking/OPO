@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require './spec/spec_helper'
-require './lib/lab2/calculation'
+require './spec/spec_helper.rb'
+require './lib/lab2/calculation.rb'
 require 'csv'
 
 RSpec.describe Calculation do
