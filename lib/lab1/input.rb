@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Input
 class Input
   def self.enter_value
     print('Enter the number: ')

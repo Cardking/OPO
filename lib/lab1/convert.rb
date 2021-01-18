@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Convert
 class Convertator
   def self.convertation(value, scale_one, scale_two)
     return value if scale_one == scale_two

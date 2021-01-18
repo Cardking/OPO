@@ -1,6 +1,9 @@
+# frozen_string_literal: true
+
 load 'input.rb'
 load 'convert.rb'
 
+# Main
 class Main
   def self.main
     value = Input.enter_value
